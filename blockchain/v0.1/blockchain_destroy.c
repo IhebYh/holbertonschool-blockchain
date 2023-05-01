@@ -1,5 +1,9 @@
 #include "blockchain.h"
 
+/**
+ * blockchain_destroy - frees an entire chain of blocks
+ * @blockchain: pointer to chain struct
+ */
 void blockchain_destroy(blockchain_t *blockchain)
 {
 	if (!blockchain)
