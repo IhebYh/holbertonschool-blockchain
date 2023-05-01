@@ -122,8 +122,6 @@ int block_is_valid(block_t const *block, block_t const *prev_block);
 int hash_matches_difficulty(uint8_t const hash[SHA256_DIGEST_LENGTH],
 							uint32_t difficulty);
 void block_mine(block_t *block);
-int hash_matches_difficulty(uint8_t const hash[SHA256_DIGEST_LENGTH],
-	uint32_t difficulty);
-uint32_t get_difficulty(uint8_t const hash[SHA256_DIGEST_LENGTH]);
+uint32_t blockchain_difficulty(blockchain_t const *blockchain);
 
 #endif /* _BLOCKCHAIN_H_ */
