@@ -8,7 +8,8 @@
  * @difficulty: minimum difficulty the hash should match
  * Return: 1 if the difficulty is respected, or 0 otherwise
  **/
-int hash_matches_difficulty(uint8_t const hash[SHA256_DIGEST_LENGTH], uint32_t difficulty)
+int hash_matches_difficulty(uint8_t const hash[SHA256_DIGEST_LENGTH],
+							uint32_t difficulty)
 {
 	size_t i;
 
