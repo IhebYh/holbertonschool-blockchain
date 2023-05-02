@@ -13,5 +13,5 @@ uint8_t
 	if (!digest)
 		return (NULL);
 
-	return (SHA256((const unsigned char *)s, len, (unsigned char *)digest));
+	return (SHA256((const unsigned char *)s, len, digest));
 }
