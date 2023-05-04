@@ -37,7 +37,7 @@ int main(void)
 	block = llist_get_head(blockchain->chain);
 
 	block = block_create(block, (int8_t *)"Holberton", 9);
-	block->info.timestamp = 94103;
+	block->info.timestamp = 972;
 	llist_add_node(blockchain->chain, block, ADD_NODE_REAR);
 
 	block_hash(block, hash);
