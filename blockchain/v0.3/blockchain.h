@@ -18,7 +18,7 @@
 #include "../../crypto/hblk_crypto.h"
 #include "provided/endianness.h"
 #include "transaction/transaction.h"
-#include "provided/provided.h"
+/*#include "provided/provided.h"*/
 
 #define MIN(x, y) ((x) < (y) ? (x) : (y))
 
